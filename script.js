@@ -17,5 +17,5 @@ console.log(localStorage.getItem('calculation'));
       };
       function answer(){
         document.querySelector('.js-ans')
-         .innerHTML = `Answer: ${calculation}`;
+         .innerHTML =`${calculation}`;
       };

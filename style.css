@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Nbtn,.obtn{
+  border-radius:50% ;
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  border: none;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+.txt{
+  font-size: 100px;
+  margin-left: 4px;
+}
+.Nbtn{
+  background-color: rgb(70, 68, 68);
+}
+.obtn{
+  background-color: rgb(242, 153, 9);
+}
