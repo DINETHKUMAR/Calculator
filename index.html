@@ -3,73 +3,77 @@
   <head>
     <title>Calculator</title>
     
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+
+    <p class="js-ans txt"></p>
+
     <p>
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('1');
       ">1</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('2');
       ">2</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('3');
       ">3</button>
 
-      <button onclick="
+      <button class="obtn" onclick="
         updateCalculation(' + ');
       ">+</button>
     </p>
 
     <p>
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('4');
       ">4</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('5');
       ">5</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('6');
       ">6</button>
 
-      <button onclick="
+      <button class="obtn"  onclick="
         updateCalculation(' - ');
       ">-</button>
     </p>
 
     <p>
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('7');
       ">7</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('8');
       ">8</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('9');
       ">9</button>
 
-      <button onclick="
+      <button class="obtn" onclick="
         updateCalculation(' * ');
       ">*</button>
     </p>
 
     <p>
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('0');
       ">0</button>
 
-      <button onclick="
+      <button class="Nbtn" onclick="
         updateCalculation('.');
       ">.</button>
 
-      <button onclick="
+      <button class="Nbtn ans" onclick="
         calculation = eval(calculation);
         console.log(calculation);
         saveCalculation();
@@ -77,23 +81,22 @@
 
       ">=</button>
 
-      <button onclick="
+      <button class="obtn" onclick="
         updateCalculation(' / ');
       ">/</button>
     </p>
 
     <p>
-      <button onclick="
+      <button class="Nbtn" onclick="
         calculation = '';
         console.log(calculation);
         saveCalculation();
         answer();
         
-      ">Clear</button>
+      ">AC</button>
     </p>
 
-    <p class="js-ans"></p>
-
+    
     <script src="script.js"></script>
   </body>
 </html>
